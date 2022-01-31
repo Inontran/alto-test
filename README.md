@@ -6,7 +6,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Для работы с проектом в системе должен быть установлен 'Node.js' и 'npm'.
+
 In the project directory, you can run:
+
+### `git clone git@github.com:Inontran/hotel-toxin-react.git`
+
+Клонирование проекта по SSH.
+
+
+### `git clone https://github.com/Inontran/hotel-toxin-react.git`
+
+Клонирование проекта по HTTPS.
+
+
+### `npm install`
+
+Установка проекта.
 
 ### `npm start`
 
