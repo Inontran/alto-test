@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://testtask.alto.codes/',
+  baseURL: '//testtask.alto.codes/',
 });
 
 const productsAPI = {
