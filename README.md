@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Тестовое задание для компании "Alto"
+
+Ссылка на демо - [github pages](//inontran.github.io/alto-test/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
