@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/alto-test/static/css/main.6fdf8e4f.css",
+    "main.js": "/alto-test/static/js/main.92403fb8.js",
+    "static/js/787.9229026d.chunk.js": "/alto-test/static/js/787.9229026d.chunk.js",
+    "static/media/roboto-mediumitalic-webfont.woff": "/alto-test/static/media/roboto-mediumitalic-webfont.ac3183a89983bc1636f6.woff",
+    "static/media/roboto-bold-webfont.woff": "/alto-test/static/media/roboto-bold-webfont.2a55263005419cf8cbb9.woff",
+    "static/media/roboto-regular-webfont.woff": "/alto-test/static/media/roboto-regular-webfont.3e6a3814cca883779fe2.woff",
+    "static/media/roboto-mediumitalic-webfont.woff2": "/alto-test/static/media/roboto-mediumitalic-webfont.e8aebbfbc13a94c3c594.woff2",
+    "static/media/roboto-bold-webfont.woff2": "/alto-test/static/media/roboto-bold-webfont.238097f35037e39a06aa.woff2",
+    "static/media/roboto-regular-webfont.woff2": "/alto-test/static/media/roboto-regular-webfont.d963607a958bfd8a9828.woff2",
+    "static/media/test-product.jpg": "/alto-test/static/media/test-product.bea49f1e579912990ca8.jpg",
+    "static/media/cart.svg": "/alto-test/static/media/cart.42c03ae263a43214f463edc28886220f.svg",
+    "index.html": "/alto-test/index.html",
+    "main.6fdf8e4f.css.map": "/alto-test/static/css/main.6fdf8e4f.css.map",
+    "main.92403fb8.js.map": "/alto-test/static/js/main.92403fb8.js.map",
+    "787.9229026d.chunk.js.map": "/alto-test/static/js/787.9229026d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fdf8e4f.css",
+    "static/js/main.92403fb8.js"
+  ]
+}
