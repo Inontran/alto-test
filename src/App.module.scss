@@ -1,0 +1,42 @@
+@import 'normalize.css';
+@import './share/variables.scss';
+
+.App {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Container {
+  max-width: 1300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CardList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.CardWrapper {
+  padding: 0 10px 20px;
+  width: 25%;
+  flex: 0 0 auto;
+
+  @media (max-width: $md) {
+    width: 50%;
+  }
+
+  @media (max-width: $xs) {
+    width: 100%;
+  }
+}
+
+.PaginationWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}

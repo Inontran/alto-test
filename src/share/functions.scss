@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+@function calc-rem($val-px) {
+  $result: #{$val-px / $font-size-base + 'rem'};
+  @return $result;
+}
+
+@function divide($num1, $num2) {
+  $result: $num1 / $num2;
+  @return $result;
+}

@@ -1,0 +1,78 @@
+@import '../../share/variables.scss';
+@import '../../share/functions.scss';
+
+.Pagination {
+  .Wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .ForwardBtn,
+  .BackBtn {
+    border-radius: 100vh;
+    position: relative;
+    background-color: $light-blue;
+    overflow: hidden;
+    height: calc-rem(32);
+    color: $dark-gray;
+    font-size: calc-rem(13);
+    line-height: 1.615;
+    padding: 4px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .BackBtn {
+    margin-right: 15px;
+  }
+  .ForwardBtn {
+    margin-left: 15px;
+  }
+
+  .Number {
+    display: inline-block;
+    min-width: calc-rem(32);
+    height: calc-rem(32);
+    text-decoration: none;
+    text-align: center;
+    line-height: calc(#{calc-rem(32)} - 10px);
+    font-size: calc-rem(12);
+    color: $dark-gray;
+    padding: 5px;
+    background-color: $light-blue;
+    transition: 0.2s;
+    border-radius: 100vh;
+    margin: 0 3px;
+    cursor: pointer;
+  }
+
+  .BtnWrapper {
+    list-style: none;
+    display: inline-flex;
+
+    &_disabled {
+      .ForwardBtn,
+      .BackBtn,
+      .Number {
+        color: $gray-blue;
+        cursor: default;
+      }
+    }
+
+    &_current{
+      .Number {
+        border-radius: 100vh;
+        background: $dark-blue;
+        color: $white;
+        font-weight: 700;
+        cursor: default;
+      }
+    }
+  }
+}

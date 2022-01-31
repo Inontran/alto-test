@@ -1,0 +1,84 @@
+@import '../../share/variables.scss';
+
+.CardProduct {
+  box-shadow: 0px 3px 6px #DFEAFC;
+  transition: box-shadow .5s ease;
+
+  &:hover {
+    box-shadow: 0px 6px 12px #D5E0EF;
+
+    .Collapser {
+      max-height: 100vh;
+      opacity: 1;
+    }
+  }
+}
+
+.ImgWrapper {
+  padding: 17px 20px;
+  text-align: center;
+  border-bottom: 1px solid #E4ECF9;
+}
+
+.Img {
+  max-width: 100%;
+}
+
+.Body {
+  padding: 18px 20px 20px;
+}
+
+.Badge {
+  display: inline-block;
+  background-color: $green;
+  padding: 7px 13px;
+  color: $white;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 15px;
+
+  &.blue {
+    background-color: $blue;
+  }
+}
+
+.Title {
+  color: $dark-gray;
+  text-decoration: underline;
+  line-height: 1.625;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.Price {
+  color: $dark-gray;
+  font-weight: 700;
+  line-height: 1.875;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Color,
+.Description {
+  color: $second-gray;
+  font-size: .75rem;
+  line-height: 1.66666;
+  margin-top: 0;
+}
+
+.Color {
+  margin-bottom: 4px;
+}
+
+.Description {
+  margin-bottom: 17px;
+}
+
+.Collapser {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height .5s ease,
+              opacity .5s ease;
+}
